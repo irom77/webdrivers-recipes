@@ -2,6 +2,7 @@
   "name": "webdriver-recipes",
   "private": true,
   "devDependencies": {
+    "chromedriver": "^2.30.1",
     "selenium-webdriver": "~2.42.1"
   }
 }
