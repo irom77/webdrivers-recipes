@@ -20,6 +20,7 @@ browser.getTitle()
 console.log("The title is: " + title)
 });
 return webdriver.until.titleIs('Irek-11 - Internet - Check Point 1100 Appliance');
+//TypeError: Cannot read property 'titleIs' of undefined
 }
 
 
@@ -69,7 +70,7 @@ function closeBrowser() {
 
 browser.get('https://10.199.107.1:4434');
 browser.findElement(webdriver.By.id('textfield-1018-inputEl')).sendKeys('admin');
-browser.findElement(webdriver.By.id('textfield-1019-inputEl')).sendKeys('n3w@y!n');
+browser.findElement(webdriver.By.id('textfield-1019-inputEl')).sendKeys('');
 browser.findElement(webdriver.By.id('button-1021-btnIconEl')).click();
 //browser.findElements(webdriver.By.css('[background-mage="build-280vzwK8/smb/resources/images/sg/ROBO/header-logo.png"]'));
 //browser.wait(findLogo, 2000).then(clickLink).then(logTitle).then(closeBrowser, handleFailure);
